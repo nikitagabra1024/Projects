@@ -1,0 +1,213 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Spice Symphony - MENU</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff8e7;
+  color: #333;
+  padding: 2rem;
+}
+
+header {
+  background-color: #ff6347;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background-color: #ffe6d0;
+  border-left: 5px solid #d94f30;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 1 1 48%;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.menu-item {
+  margin: 0.5rem 0;
+}
+
+.menu-img {
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 0.5rem;
+}
+
+.menu-section {
+  margin-bottom: 2rem;
+}
+
+.feedback-container {
+  background-color: #fff4e6;
+  border: 2px solid tomato;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+form table {
+  width: 100%;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form input[type="submit"] {
+  padding: 10px 20px;
+  background-color: tomato;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #e5533c;
+}
+
+blockquote {
+  margin: 3rem 0;
+  padding: 1rem;
+  background-color: #ffe6d0;
+  font-style: italic;
+  border-left: 5px solid #d94f30;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #222;
+  color: #ddd;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>The Spice Symphony</h1>
+    <p>Welcome to the flavour of spice and fun! ✨</p>
+  </header>  <div class="container">
+    <div class="column">
+      <div class="menu-section">
+        <h2>Starters 🍽</h2>
+        <p class="menu-item">Crispy Spring Rolls – ₹150</p>
+        <p class="menu-item">French Fries – ₹80-100</p>
+        <p class="menu-item">Veg Manchurian – ₹160</p>
+        <p class="menu-item">Paneer Tikka – ₹180</p>
+        <p class="menu-item">Hara Bhara Kabab – ₹120</p>
+      </div>
+      <div class="menu-section">
+        <h2>Soups 🍲</h2>
+        <p class="menu-item">Tomato Basil Soup – ₹120</p>
+        <p class="menu-item">Sweet Corn Soup – ₹110</p>
+        <p class="menu-item">Hot & Sour Soup – ₹140</p>
+        <p class="menu-item">Manchow Soup – ₹120</p>
+      </div>
+      <div class="menu-section">
+        <h2>Dosas</h2>
+        <p class="menu-item">Masala Dosa – ₹60</p>
+        <p class="menu-item">Paneer Masala Dosa – ₹150</p>
+        <p class="menu-item">Chinese Dosa – ₹180</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="menu-section">
+        <h2>Main Course</h2>
+        <p class="menu-item">Paneer Butter Masala – ₹240</p>
+        <p class="menu-item">Dal Makhani – ₹240</p>
+        <p class="menu-item">Chana Masala – ₹160</p>
+        <p class="menu-item">Palak Paneer – ₹160</p>
+      </div>
+      <div class="menu-section">
+        <h2>Juices 🧃</h2>
+        <p class="menu-item">🍊 Orange Juice – ₹60/100</p>
+        <p class="menu-item">🍎 Apple Juice – ₹80/150</p>
+        <p class="menu-item">🍉 Watermelon Juice – ₹40/70</p>
+      </div>
+      <div class="menu-section">
+        <h2>Desserts 🍰</h2>
+        <p class="menu-item">Gulab Jamun – ₹50</p>
+        <p class="menu-item">Rasmalai – ₹80</p>
+        <p class="menu-item">Cheesecake – ₹90</p>
+        <p class="menu-item">Brownie – ₹80</p>
+      </div>
+    </div>
+  </div>  <blockquote>
+    📣 “Food is the ingredient that binds us together.”
+  </blockquote>  <h2 style="text-align:center;">Customer Feedback</h2>
+  <div class="feedback-container">
+    <form action="">
+      <table>
+        <tr>
+          <td><label for="name">Name:</label></td>
+          <td><input type="text" id="name" name="name" required></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td><input type="email" id="email" name="email" required></td>
+        </tr>
+        <tr>
+          <td><label for="rating">Rating:</label></td>
+          <td>
+            <label><input type="radio" name="rating" value="1">1</label>
+            <label><input type="radio" name="rating" value="2">2</label>
+            <label><input type="radio" name="rating" value="3">3</label>
+            <label><input type="radio" name="rating" value="4">4</label>
+            <label><input type="radio" name="rating" value="5" checked>5</label>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="review">Review:</label></td>
+          <td><textarea id="review" name="review" rows="4"></textarea></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: center;">
+            <br>
+            <input type="submit" value="Submit Feedback">
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>  <footer>
+    <p>🍜 Bon Appetit! | The Spice Symphony | Made by Nikita</p>
+  </footer>
+</body>
+</html>
