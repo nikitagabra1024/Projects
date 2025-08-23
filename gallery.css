@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+header {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: white;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;        /* allow wrapping */
+  justify-content: center;
+  gap: 15px;              /* spacing between items */
+  padding: 20px;
+}
+.gallery img {
+  width: 250px;           /* fixed width for consistency */
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.4s, filter 0.4s;
+}
+.gallery img:hover {
+  transform: scale(1.1);
+  filter: brightness(80%);
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #333;
+  color: #ccc;
+}
